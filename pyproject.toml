@@ -1,0 +1,19 @@
+[project]
+name = "attention-is-all-you-need"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Vrushabh Damle", email = "dwrushabh@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "torch>=2.14.0",
+]
+
+[project.scripts]
+attention-is-all-you-need = "attention_is_all_you_need:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
